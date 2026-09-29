@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premade Sandwiches — Glass Animals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="song-page sandwiches">
+
+<input type="checkbox" id="play" class="play-toggle sr-only">
+
+<div id="scanlines"></div>
+
+<nav class="site-nav">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle sr-only">
+  <div class="nav-bar">
+    <a href="index.html" class="nav-logo">GA</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">首页</a>
+      <a href="album.html" class="nav-link">专辑</a>
+      <a href="songs.html" class="nav-link active">选歌</a>
+      <a href="band.html" class="nav-link">乐队</a>
+    </div>
+    <div class="nav-player">♪ NOW PLAYING: PREMADE SANDWICHES</div>
+    <label for="nav-toggle" class="hamburger">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </label>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html" class="nav-link">首页</a>
+    <a href="album.html" class="nav-link">专辑</a>
+    <a href="songs.html" class="nav-link active">选歌</a>
+    <a href="band.html" class="nav-link">乐队</a>
+  </div>
+</nav>
+
+<main class="player-layout">
+  <div class="player-top-bar">
+    <a href="songs.html" class="px-btn px-btn-sm px-btn-ghost accent-border">← 返回选歌</a>
+    <span class="player-top-num">11 / 11</span>
+    <span class="player-top-title">Premade Sandwiches</span>
+    <span class="player-top-char">三明治男孩</span>
+  </div>
+
+  <div class="player-grid">
+
+    <div class="player-left">
+      <div class="player-char-section">
+        <div class="player-char-avatar-wrap"><div class="char-avatar"></div></div>
+        <div class="player-char-name-zh">三明治男孩</div>
+        <div class="player-char-name-en">Sandwich Boy</div>
+        <div class="player-char-moods">
+          <span class="mood-tag">奇异</span>
+          <span class="mood-tag">日常</span>
+          <span class="mood-tag">孤独</span>
+        </div>
+      </div>
+      <div class="char-dialog">
+        <div class="dialog-label">角色独白</div>
+        <p class="dialog-text">「每天同样的三明治。每天同样的生活。没关系的，我喜欢这样。至少我知道明天会发生什么。」</p>
+      </div>
+      <div>
+        <div class="player-section-label">BACKGROUND</div>
+        <p class="player-bg-text">在路边便利店遇见的男人，每天同一时间来买同一款三明治。他说这是他一天中唯一确定的事情。</p>
+      </div>
+    </div>
+
+    <div class="player-center">
+      <div class="player-cassette-wrap">
+        <div class="cassette-body">
+          <div class="cassette-label">
+            <div class="cassette-label-line"></div>
+            <div class="cassette-label-line"></div>
+          </div>
+          <div class="cassette-led"></div>
+          <div class="cassette-window">
+            <div class="reel"><div class="reel-center"></div></div>
+            <div class="cassette-tape"></div>
+            <div class="reel"><div class="reel-center"></div></div>
+          </div>
+          <div class="cassette-corner cassette-corner-tl"></div>
+          <div class="cassette-corner cassette-corner-tr"></div>
+          <div class="cassette-corner cassette-corner-bl"></div>
+          <div class="cassette-corner cassette-corner-br"></div>
+        </div>
+      </div>
+      <div class="art-display player-art-display"></div>
+      <div class="player-song-heading">
+        <div class="player-song-title">Premade Sandwiches</div>
+        <div class="player-song-sub">Glass Animals — How to Be a Human Being</div>
+      </div>
+      <div class="player-spectrum-wrap">
+        <div class="spectrum-wrap">
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div><div class="sp-bar"></div><div class="sp-bar"></div>
+          <div class="sp-bar"></div>
+        </div>
+      </div>
+      <div class="player-progress-section">
+        <input type="range" class="progress-bar" value="0" min="0" max="100">
+        <div class="progress-times"><span>0:00</span><span>3:18</span></div>
+      </div>
+      <div class="player-controls">
+        <a href="agnes.html" class="px-btn px-btn-sm">⏮ 上一首</a>
+        <label for="play" class="play-btn-main">
+          <span class="icon-play">▶</span>
+          <span class="icon-pause">⏸</span>
+        </label>
+        <a href="life-itself.html" class="px-btn px-btn-sm">下一首 ⏭</a>
+      </div>
+      <div class="player-volume-section">
+        <span class="volume-icon">♪</span>
+        <input type="range" class="volume-bar" value="75" min="0" max="100">
+        <span class="volume-label">75</span>
+      </div>
+    </div>
+
+    <div class="player-right">
+      <div class="tracklist-header">曲目列表</div>
+      <a href="life-itself.html" class="tracklist-item life-itself"><span class="tracklist-num">01</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Life Itself</div><div class="tracklist-char">幻想少年</div></div><span class="tracklist-dur">4:31</span></a>
+      <a href="youth.html" class="tracklist-item youth"><span class="tracklist-num">02</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Youth</div><div class="tracklist-char">高速少女</div></div><span class="tracklist-dur">3:49</span></a>
+      <a href="season-2-episode-3.html" class="tracklist-item s2e3"><span class="tracklist-num">03</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Season 2 Ep3</div><div class="tracklist-char">沙发侦探</div></div><span class="tracklist-dur">3:46</span></a>
+      <a href="pork-soda.html" class="tracklist-item pork-soda"><span class="tracklist-num">04</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Pork Soda</div><div class="tracklist-char">派对老哥</div></div><span class="tracklist-dur">3:48</span></a>
+      <a href="mamas-gun.html" class="tracklist-item mamas-gun"><span class="tracklist-num">05</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Mama's Gun</div><div class="tracklist-char">逃跑者</div></div><span class="tracklist-dur">4:02</span></a>
+      <a href="cane-shuga.html" class="tracklist-item cane-shuga"><span class="tracklist-num">06</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Cane Shuga</div><div class="tracklist-char">糖罐女孩</div></div><span class="tracklist-dur">4:12</span></a>
+      <a href="take-a-slice.html" class="tracklist-item take-a-slice"><span class="tracklist-num">07</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Take a Slice</div><div class="tracklist-char">迷失者</div></div><span class="tracklist-dur">3:38</span></a>
+      <a href="poplar-st.html" class="tracklist-item poplar-st"><span class="tracklist-num">08</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Poplar St</div><div class="tracklist-char">邻居太太</div></div><span class="tracklist-dur">3:22</span></a>
+      <a href="the-other-side-of-paradise.html" class="tracklist-item paradise"><span class="tracklist-num">09</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">The Other Side...</div><div class="tracklist-char">梦游者</div></div><span class="tracklist-dur">5:05</span></a>
+      <a href="agnes.html" class="tracklist-item agnes"><span class="tracklist-num">10</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title">Agnes</div><div class="tracklist-char">失去者</div></div><span class="tracklist-dur">4:34</span></a>
+      <a href="premade-sandwiches.html" class="tracklist-item tracklist-item-active sandwiches"><span class="tracklist-num">11</span><div class="art-thumb art-thumb-sm tracklist-art"></div><div class="tracklist-info"><div class="tracklist-title tracklist-title-active">Premade Sandwiches</div><div class="tracklist-char tracklist-char-active">三明治男孩</div></div><span class="tracklist-dur">3:18</span></a>
+    </div>
+
+  </div>
+</main>
+
+<div class="mobile-player-bar">
+  <label for="play" class="mini-play-label px-btn px-btn-sm">
+    <span class="icon-play">▶</span><span class="icon-pause">⏸</span>
+  </label>
+  <div class="mobile-player-song">
+    <div class="mobile-player-title">Premade Sandwiches</div>
+    <div class="mobile-player-prog"></div>
+  </div>
+  <a href="life-itself.html" class="mobile-player-next">⏭</a>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><div class="footer-logo">GLASS ANIMALS</div><p class="footer-tagline">How to Be a Human Being<br>2016 · Wolf Tone / Island Records</p></div>
+    <div><div class="footer-heading">导航</div><div class="footer-links"><a href="index.html" class="footer-link">首页</a><a href="album.html" class="footer-link">专辑曲目</a><a href="songs.html" class="footer-link">选择歌曲</a><a href="band.html" class="footer-link">关于乐队</a></div></div>
+    <div><div class="footer-heading">关注我们</div><div class="footer-social"><span class="social-btn">♫</span><span class="social-btn">◈</span><span class="social-btn">▶</span></div></div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2016 GLASS ANIMALS / WOLF TONE / ISLAND RECORDS</span>
+    <span class="footer-copy">FAN SITE — NOT OFFICIAL</span>
+  </div>
+</footer>
+
+</body>
+</html>
